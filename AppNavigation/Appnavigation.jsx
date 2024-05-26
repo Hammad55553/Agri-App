@@ -1,23 +1,23 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from '../Screens/HomeScreen';
-import AddTrip from '../Screens/AddTrip';
-import AddExpensesScreen from '../Screens/addExpensesScreen';
-import Login from '../Screens/Auth/Login';
+import HomeScreen from '../Src/HomeScreen';
+import AddTrip from '../Src/AddTrip';
+import AddExpensesScreen from '../Src/addExpensesScreen';
+import Login from '../Src/Auth/Login';
 import BottomNavigation from './bottomNavigation';
-import SplashScreen from '../Screens/SplashScreen/SplashScreen';
+import SplashScreen from '../Src/SplashScreen/SplashScreen';
 
-import PopularServiceProvider from '../Screens/popularServiceProvider/popularServiceProvider';
-import Signup from '../Screens/Auth/Signup';
-import Profile from '../Screens/Profile';
+import PopularServiceProvider from '../Src/popularServiceProvider/popularServiceProvider';
+import Signup from '../Src/Auth/Signup';
+import Profile from '../Src/Profile';
 
-import CurrentLocation from '../Screens/Map/CurrentLocation';
-import Location from '../Screens/Location';
+import CurrentLocation from '../Src/Map/CurrentLocation';
+import Location from '../Src/Location';
 
 
-import Changepass from '../Screens/Userinfo/Changepass';
-import UProfile from '../Screens/Userinfo/UProfile';
+import Changepass from '../Src/Userinfo/Changepass';
+import UProfile from '../Src/Userinfo/UProfile';
 
 
 
